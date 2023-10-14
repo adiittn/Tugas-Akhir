@@ -1,0 +1,126 @@
+html {
+    scroll-behavior: smooth;
+}
+
+*, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    line-height: 35px;
+}
+
+body {
+    background-color: rgb(244, 244, 244);
+}
+
+h1, h2 {
+    cursor: pointer;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    padding: 30px;
+    padding-left: 50px;
+    background-color: rgb(33, 62, 140);
+    color: white;
+    border-bottom-left-radius: 120px;
+    position: fixed;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+ul {
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 0.9rem;
+    transition: all .2s ease;
+}
+
+a:hover {
+    padding: 8px;
+    border-radius: 2px;
+    background-color: white;
+    color: rgb(33, 62, 140);
+}
+
+#about-section {
+    display: flex;
+    width: 100vw;
+    height: 60vh;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: start;
+    padding-top: 150px;
+}
+
+.about-text-container {
+    width: 50vw;
+}
+
+.about-img-container img {
+    width: 50vh;
+    height: 50vh;
+    border-radius: 50%;
+}
+
+#experiences-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    column-gap: 50px;
+    padding: 80px;
+}
+
+.experiences-left-container h1 {
+    margin-bottom: 50px;
+}
+
+.experiences-right-container ol li {
+    margin-top: 50px;
+}
+
+#education-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    text-align: center;
+    pading: 80px;
+}
+
+#skills-section {
+    display: flex;
+    flex-direction: column;
+    padding: 80px;
+}
+
+#skills-section div {
+    padding-left: 25px;
+}
+
+#interests-section {
+    padding: 80px;
+}
+
+#award-section {
+    padding: 80px;
+}
+
+#award-section ol {
+    padding-left: 25px;
+}
